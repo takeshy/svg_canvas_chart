@@ -1,0 +1,17 @@
+{
+  "name": "svg_canvas_chart",
+  "version": "1.0.0",
+  "description": "SVG Chart & Canvas Chart",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev_server": "webpack-dev-server --hot --inline"
+  },
+  "author": "takeshi morita",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "ts-loader": "^3.1.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}

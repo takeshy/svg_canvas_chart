@@ -1,0 +1,21 @@
+<html>
+  <head>
+      <title>candle chart</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    quantity: <input type="number" id="quantity"  size="4" value="20" step="2">
+    width:  <input type="number" id="width"  size="4" step="100">
+    height: <input type="number" id="height" size="4" step="100">
+    scale <input type="number" id="scale" size="1" value = 1><br>(devicePixelRatio:<span id="devicePixelRatio"></span>) 
+    <br>
+    svg: <input type="radio" name="type" value="svg" checked="checked"> canvas: <input type="radio" name="type" value="canvas">
+    <div id="elapse_time"></div>
+    <div>
+        <div id="scroll_area" style="z-index=2;position:absolute;background-color:transparent;"></div>
+        <div id="chart_area"></div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
+
